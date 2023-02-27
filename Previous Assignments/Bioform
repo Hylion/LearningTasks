@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+
+<head> 
+<title> BioData Form </title>   
+
+<div style="width:800px;
+height:900px;
+border:5px solid black;
+padding:300x;
+content:100px;
+margin:250px;
+float:center">
+
+
+<div style=" width: 100px;
+height:100px;
+border: 2px solid black;
+padding: 50px;
+margin: 40px; 
+float:right;
+content:20px">
+<b>Insert 2x2 Here</b>
+</div>
+<style>
+h1{border-style:dashed;text-align:center;margin-left:300px;margin-right:300px}
+p{font-family:Century Gothic; font-size:20px;}
+span{display:inline}
+div.field{font-family:Century Gothic;}
+body{margin-left:auto;margin-right:auto;}
+input[type=radio]{font-family:Century Gothic;}
+input[type=text]{text-align:center;font-family:Century Gothic}
+option{font-family:Century Gothic}
+textarea{text-align:center}
+</style>
+<h1> Bio · Form </h1>
+
+</head>
+
+<body>
+<p style="line-height: 30px;padding-left:50px"> <strong> ALL IN CAPITALS </strong> </p>
+<p style="font-size:10px;padding-left:50px"> * are required fields</p>
+  <form action="/action_page.php">
+ 
+<ol style="margin:20px">
+<span>
+<li> <div class = "field"> <b>First Name * </b> </div> </li>
+
+  <input type="text" placeholder="FirstName" required> </input>
+<div class ="field"> <b> Last Name * </b></div>
+  <input type="text" placeholder="LastName" required> </input> 
+  </span>
+</br>
+</br>
+<li> <div class = "field" > <b>Gender *</b> </div> </li>
+  <input name="gender" type="radio" required> Male </input>
+  <input name="gender" type="radio" required> Female </input>
+  <input name="gender" type="radio" required> Other </input>
+</br>
+</br>
+<li> <div class = "field"> <b> Date of Birth * </b> </div> </li>
+  <input type="date" required> </input>
+</br>
+</br>
+<li> <div class = "field"> <b> Type of Nationality </b> </div> </li>
+  <select>
+    <option>Filipino </option>
+    <option>Filipino-mixed </option>
+    <option>Foreigner</option>
+  </select>
+</br>
+</br>
+<li> <div class= "field"> <b> Marital Status </b> </div> </li>
+    <select>
+      <option> Married </option>
+      <option> Single </option>
+      <option> Widowed </option>
+    </select>
+</br>
+</br>
+<li> <div class="field"><b> Residential Address * </b></div></li>
+  <textarea id="Residential Address" name="Address"  rows="3" cols="30" placeholder="Enter Your Address here" required></textarea>
+</br>
+</br>
+<li> <div class="field"><b> Phone * </b> </div> </li>
+  <input type="text" placeholder="09xxxxxxxxx"required> </input>
+</br>
+</br>
+<li> <div class="field"><b> Email * </b></div></li>
+  <textarea id="Email Address" name="Email" rows="3" cols="30" placeholder="Enter your Email here" required></textarea>
+<li> <div class="field"><b> No. of siblings</b></div></li> 
+  <input type="number" style="padding:3px";/>
+</ol>
+
+
+<input type="submit" style="margin-left:50px"> </input>
+</form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html
