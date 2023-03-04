@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1 style="text-align:center">15 Dog Pictures</h1>
+    
+ <style>
+   .wrapper {
+   width: 1200px;
+   height: 1200px;
+   padding: 10px;
+   border:5px solid black;
+   background-image:linear-gradient(white,black);
+   margin-left:auto;
+   margin-right:auto;
+   
+   
+   }
+   .wrapper div{
+   border: 3px dashed red;
+   height:200px;
+   width: 200px;
+   margin: 5px;
+   font-size:50px;
+   float:left;
+   }
+   .wrapper .box-a{
+       background-image: url("https://images.unsplash.com/photo-1568572933382-74d440642117?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80g");
+       background-repeat:no-repeat;
+       background-size:200px 200px;
+       
+    
+   }
+   .wrapper .box-b{
+       background-image: url("https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+       background-size:200px 200px;
+       background-repeat:no-repeat;
+       border:2px solid yellow;
+   }
+   .wrapper .box-c{
+    background-image: url("https://images.unsplash.com/photo-1534351450181-ea9f78427fe8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-size:cover;
+    border-radius: 50%;
+    border:double 3px green;
+   }
+   .box-c:hover{
+    background-image: url("https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=662&q=80");
+    background-size:cover;
+    border-radius: 50%;
+    transition: 1s ease-out;
+   }
+   .wrapper .box-d{
+    background-image:url("https://media4.giphy.com/media/RHIXAQ0ZUE6I9lQIPq/giphy.gif?cid=ecf05e47mwvfvjndlxq9ybm95vbvq6cr5kgqtrxpxj6pufx6&rid=giphy.gif&ct=g");
+    background-repeat:repeat;
+   }
+   .wrapper .box-e{
+    background-image:url("https://images.unsplash.com/photo-1551717743-49959800b1f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80");
+    background-size:200px 200px;
+   }
+   .wrapper .box-f{
+   background-image:url(https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+   background-size:250px 200px;
+   font-size:20px;
+   color:greenyellow;
+   }
+   .wrapper .box-g{
+    background-image:url(https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80);
+    background-size:200px 200px;
+   }
+   .box-g:hover{
+    background-image:url(https://images.unsplash.com/photo-1588943211346-0908a1fb0b01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+    background-size:200px 200px;
+    transition: 1s ease-out;
+    border:dashed 3px yellow;
+    -webkit-transform: scaleX(1);
+    transform:scaleX(-1);
+   }
+   .wrapper .box-h{
+    background-image:url(https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80);
+    background-size:cover;
+    border:solid 3px pink;
+   }
+   .wrapper .box-i{
+    background-image:url(https://images.unsplash.com/photo-1596492784531-6e6eb5ea9993?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-size:cover;
+    font-family:'Courier New', Courier, monospace
+    font-size:15px;
+    color:red;
+   }
+   .wrapper .box-j{
+    background-image:url(https://images.unsplash.com/photo-1503256207526-0d5d80fa2f47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80);
+    background-size:200px 200px;
+   }
+   .pgraph{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:10px;
+    margin:30px;
+    content:10px;
+    color:aqua;
+    float:bottom;
+   }
+   .wrapper .box-k{
+    background-image:url(https://images.unsplash.com/photo-1557109849-e4318569d309?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    border-radius: 30%;
+    border: solid 3px greenyellow;
+    background-size:cover;
+   }
+   .wrapper .box-l{
+    background-image:url(https://images.unsplash.com/photo-1596646330272-d1c160031eae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80);
+    background-size:cover;
+   }
+   .wrapper .box-m{
+    background-image:url(https://images.unsplash.com/photo-1624856052913-c86cc25eefe0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80);
+    background-size:cover;
+    border-radius:40%;
+   }
+   .wrapper .box-n{
+    background-image:url(https://images.unsplash.com/photo-1547660351-51b6d384015f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+    background-size:cover;
+    border: dotted 3px magenta;
+   }
+   .wrapper .box-o{
+    background-image:url(https://images.unsplash.com/photo-1563889958784-7d0a4a068edc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-size:cover;
+   }
+   </style>
+  
+</head>
+<body>
+<div class="wrapper">
+ <div class="box-a">  </div>
+ <div class="box-b">  </div>
+ <div class="box-c">  </div>
+ <div class="box-d">  </div>
+ <div class="box-e">  </div>
+ <div class="box-f"><b>This is a dog </b> </div> 
+ <div class="box-g">  </div>
+ <div class="box-h">  </div>
+ <div class="box-i"> Doggy </div>
+ <div class="box-j">
+     <p class="pgraph">this is a paragraph</p>
+</div>
+ <div class="box-k">  </div>
+ <div class="box-l">  </div>
+ <div class="box-m"> </div> 
+ <div class="box-n">  </div>
+ <div class="box-o">  </div>
+</div>
+   </html>
