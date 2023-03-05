@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+   <style>
+    .wrapper{
+    height:650px;
+    width:1270px;
+    margin-right:auto;
+    margin-left:auto;
+    border:3px solid black;
+    padding:30px ;
+    background-image:linear-gradient(to bottom, green,yellow);
+    }
+    .wrapper div
+    {
+    height: 300px;
+    width:250px;
+    margin-right:auto;
+    margin-left:auto;
+    border: 2px dashed black;
+    float:left;
+    }
+    .wrapper .container{
+    height: 97px;
+    width: 248px;
+    border:1px solid black;
+    margin-top:200px;
+    font-size:17px;
+    font-family:Helvetica;
+    text-align:center;
+    background-color:white;
+    }
+    .wrapper .box-a{
+    background-image:url(https://images.unsplash.com/photo-1631629571979-1c82e81c7cee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1372&q=80);
+    background-size:250px 200px;
+    background-repeat:no-repeat;
+    }
+    .wrapper .box-b{
+    background-image:url(https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80);
+    background-size:250px 200px;
+    background-repeat:no-repeat;
+    }
+    .wrapper .box-c{
+    background-image:url(https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=843&q=80);
+    background-size:250px 200px;
+    }  
+    .wrapper .box-d{
+    background-image:url(https://images.unsplash.com/photo-1584553421349-3557471bed79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1446&q=80);
+    background-size:250px 200px;
+    }
+    .wrapper .box-e{
+    background-image:url(https://images.unsplash.com/photo-1611695267521-9891f56679a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1059&q=80);
+    background-size:250px 200px;
+    }
+    .wrapper .box-f{
+    background-image:url(https://images.unsplash.com/photo-1612356700139-ba3b20f5f468?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=894&q=80);
+    background-size:250px 200px;
+    }
+    .wrapper .box-g{
+    background-image:url(https://images.unsplash.com/photo-1518796745738-41048802f99a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80);
+    background-size:250px 200px;
+    }
+    .wrapper .box-h{
+    background-image:url(https://images.unsplash.com/photo-1511823794984-b87716139b88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=696&q=80);
+    background-size:250px 200px;
+    }
+    .wrapper .box-i{
+    background-image:url(https://images.unsplash.com/photo-1525434280327-e525e03f17ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-size:250px 200px;
+    }
+    .wrapper .box-j{
+    background-image:url(http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcR2bqdgwQjZLmJsd-8QRzvHmTCASHVafQ-_4zMrzHRAD8FW6V_wkKT3E8vEecotHDSrvrpXU0m_Mozru-A);
+    background-size:250px 200px;
+    }
+    p.text{
+    font-size:15px;
+    font-family:Century Gothic;
+    text-align:center;
+    margin-top:200px;
+    }
+   </style>
+   <h1 style="font-size:30px;font-family:Helvetica;text-align:center;">
+     Top 10 pets I would like to have
+   </h1>
+ </head>
+ <body>
+   <div class="wrapper">
+    <div class="box-a">
+      <div class="container">
+        Platypus are cool looking and cute. It reminds me of the pet that Phineas and Ferb have in the cartoon show
+      </div>
+     </div>
+    <div class="box-b">  
+     <div class="container">
+        Dogs are a man's best friend, naturally I would want a dog as my pet aswell.
+     </div>
+    </div>
+    <div class="box-c">  
+     <div class="container">
+       Cats are nice and fluffy to have, they are usually quiet and timid which makes them for good house pets
+     </div>    
+    </div>
+    <div class="box-d">
+      <div class="container">
+        Hamsters are small, cute and fluffy. I always have dreamt of getting one because they look so cute.  
+      </div>
+    </div>
+    <div class="box-e">
+      <div class="container">
+        Guinea pigs are also cute and small. They fit exactly within your two hands
+      </div>
+    </div>
+    <div class="box-f">
+      <div class="container">
+        Lynx's are the more exotic animals I would like to have but they look cool despite them being of
+      </div>  
+   
+    </div>
+    <div class="box-g"> 
+      <div class="container">
+        Rabbit have huge eyes and nibble their food which makes them so cute
+      </div>
+    </div>
+    <div class="box-h">
+        <div class="container">
+        Parrots imitate whatever you speak to them if they hear it alot. I thought it might be cool that I have an animal that follows what I say
+        </div>
+    </div>
+    <div class="box-i"> 
+        <div class="container">
+        Capybaras are unique and very cute animals, although they are not common they can definitely be used as pets!
+        </div>
+    </div>
+    <div class="box-j"> 
+        <div class="container">
+        Axolotl's are very unique aquatic animals, they look as if they are smiling always and are very cute.
+        </div>
+    </div>
+    </div>
+   
+ </body>
+
+</html>
